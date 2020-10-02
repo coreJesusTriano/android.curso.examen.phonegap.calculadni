@@ -1,0 +1,15 @@
+.invisible {
+    display: none;
+}
+
+.visible {
+    display: initial;
+}
+
+.centrar {
+    text-align: center;
+}
+
+#result {
+    padding: 1em;
+}

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.examen.calculadni" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Calcula DNI</name>
+    <description>
+        Una aplicación que calcula la letra del DNI.
+    </description>
+    <author email="core.jesust@gmail.com" href="#">
+        Jesús Triano
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>

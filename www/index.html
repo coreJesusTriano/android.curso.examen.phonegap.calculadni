@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Calcula letra DNI</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>Calcula letra DNI</h1>
+        </div>
+        <div data-role="content">
+            <label for="numDni">Introduzca el número de su D.N.I.</label>
+            <input type="number" name="numDni" id="numDni">
+
+            <button id="btnCalcular">Calcular letra del DNI</button>
+
+            <p id="label" class="invisible">La letra de su D.N.I. es:</p>
+            <div id="result" class="centrar">
+                </p>
+
+            </div>
+        </div>
+
+        <!-- A continuación los script -->
+        <script type="text/javascript" src="cordova.js"></script>
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <script src="js/index.js"></script>
+</body>
+
+</html>
